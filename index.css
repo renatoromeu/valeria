@@ -1,0 +1,118 @@
+/* Reset e base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2vh;
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  /* Imagem aleatória no topo */
+  #galeria-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #galeria-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Frase motivacional */
+  #motivacional {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #0077cc;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Tabela de itens */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Temporizador */
+  #temporizador {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #222;
+  }
+  
+  /* Linha do Tempo Visual */
+  .linha-tempo {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto 40px;
+    position: relative;
+  }
+  
+  .barra-progresso {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .marcador {
+    position: absolute;
+    top: -35px;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .marcador-foto {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077cc;
+    background-color: #fff;
+  }
+  
+  #porcentagem {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #0077cc;
+  }
+  
+  .datas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: #666;
+    padding: 0 4px;
+  }
+  

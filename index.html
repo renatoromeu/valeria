@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Aposentadoria</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Imagem aleatória -->
+  <div id="galeria-container">
+    <img id="foto-motivacional" src="" alt="Imagem aleatória">
+  </div>
+
+  <!-- Frase motivacional -->
+  <div id="motivacional"></div>
+
+  <!-- Linha do tempo visual -->
+  <div class="linha-tempo">
+    <div class="barra-progresso">
+      <div class="marcador" id="marcador">
+        <img src="marcador.png" alt="Progresso" class="marcador-foto">
+        <span id="porcentagem">0%</span>
+      </div>
+    </div>
+    <div class="datas">
+      <span>20/05/2025</span>
+      <span>30/06/2026</span>
+    </div>
+  </div>
+
+  <!-- Tabela de tarefas -->
+  <h1>Em breve uma aposentadoria</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Faltam</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-itens"></tbody>
+    <tfoot>
+      <tr>
+        <th>Dias Totais Restantes</th>
+        <td id="diasTotais"></td>
+      </tr>
+      <tr>
+        <th>Dias Úteis Restantes</th>
+        <td id="diasUteis"></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- Temporizador -->
+  <script src="index.js"></script>
+</body>
+</html>
