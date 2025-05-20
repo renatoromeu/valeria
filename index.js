@@ -118,7 +118,7 @@ async function carregarDados() {
       const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
       const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
   
-      elemento.textContent = `Faltam ${dias} dias, ${horas}h ${minutos}min ${segundos}s até o fim do período.`;
+      elemento.textContent = `Faltam ${dias} dias, ${horas}h ${minutos}min ${segundos}s.`;
     }
   
     atualizar();
